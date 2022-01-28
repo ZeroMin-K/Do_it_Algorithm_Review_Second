@@ -33,7 +33,7 @@ if __name__ == '__main__':
     for i in range(num):
         x[i] = int(input(f'x[{i}]: '))
 
-    bubble_sort(x)
+    bubble_sort_verbose(x)
 
     print('오름차순 정렬완료')
     for i in range(num):
