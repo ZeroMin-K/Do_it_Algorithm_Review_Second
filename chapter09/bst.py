@@ -140,8 +140,3 @@ class BinarySearchTree:
         while p.right is not None:
             p = p.right
         return p.key
-
-    
-
-        
-
