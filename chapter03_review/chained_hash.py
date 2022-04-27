@@ -77,6 +77,6 @@ class ChainedHash:
             p = self.table[i]
             print(i, end='')
             while p is not None:
-                print(f' -> {p.key} ({p.value})', end='')
+                print(f' -> {p.key} ({p.value})', end='')   
                 p = p.next
             print()
