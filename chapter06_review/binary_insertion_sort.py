@@ -22,5 +22,5 @@ def binary_insertion_sort(a: MutableSequence) -> None:
         pd = pc + 1 if pl <= pr else pr + 1     # 삽입 해야할 위치의 인덱스 
 
         for j in range(i, pd, -1):
-            a[j] = a[j-1]
+            a[j] = a[j-1]   
         a[pd] = key 
